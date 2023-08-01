@@ -1,0 +1,58 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.dark-mode-card {
+  background-color: #000000;
+}
+
+.dark-mode-title {
+  color: #ffffff;
+}
+
+.dark-mode-button {
+  background-color: #ffffff;
+}
+
+.light-mode-card {
+  background-color: #ffffff;
+}
+
+.light-mode-button {
+  background-color: aliceblue;
+  border-color: #000000;
+}
+
+.light-mode-title {
+  color: #000000;
+}
+
+.card-container {
+  border-radius: 12px;
+  border-width: 5px;
+  border-color: #000000;
+  padding: 12px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.button {
+  border-radius: 8px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: inset;
+  color: #000000;
+  width: 80px;
+  height: 40px;
+}
